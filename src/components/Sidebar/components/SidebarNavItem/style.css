@@ -1,0 +1,17 @@
+ion-icon {
+  margin-right: 10px;
+}
+
+a.nav-link {
+  font-size: 17px;
+  align-items: center;
+  font-weight: 500;
+  display: flex;
+  border-left: 2px solid transparent;
+}
+
+a.nav-link.active,
+a.nav-link:hover {
+  background: hsla(0, 0%, 100%, 0.1);
+  border-left: 2px solid #ed2b91;
+}
